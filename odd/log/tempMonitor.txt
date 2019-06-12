@@ -1,0 +1,7 @@
+Getting data from Mi Temperature and Humidity Sensor
+FW: 00.00.66
+Name: MJ_HT_V1
+Battery: 75
+Temperature: 26.7
+Humidity: 49.1
+Wed Jun 12 15:20:09 KST 2019
