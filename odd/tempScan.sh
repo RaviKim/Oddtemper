@@ -26,8 +26,9 @@ echo $name
 #python3 /home/pi/mitemp/demo.py --backend bluepy poll 4c:65:a8:da:ea:de
 sleep 1
 #Log Save
-python3 /home/pi/mitemp/demo.py --backend bluepy poll 4c:65:a8:da:ea:de > $logpath/tempMonitor.txt
+python3 /home/pi/mitemp/demo.py --backend bluepy poll 4c:65:a8:da:ea:de >> $logpath/tempMonitor.txt
 sleep 2
 
 $echo date  >> $logpath/tempMonitor.txt
 
+$echo "-----------------------------------" >> $logpath/tempMonitor.txt
